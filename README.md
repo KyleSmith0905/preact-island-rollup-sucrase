@@ -1,11 +1,18 @@
-# preact-island-plugins
+# Preact Island Sucrase
 
-<blockquote style="display:flex; align-items:center">
-<img height=20 src="https://preactjs.com/favicon.ico" /> Preact server rendered, partial hydration and islands for everyone!
-</blockquote>
+This is a fork of Preact Island Plugins to update it to the latest version of
+Rollup and use Sucrase instead.
 
-> [!TIP]
-> If you need a more flexible and functional API for building Preact islands, check out [Preland](https://github.com/dumbjs/preland)
+Let me know if you would like to see more work on this.
+
+I would love to convert this to TypeScript to help stability but it would take a
+large investment of time.
+
+This fork is for a product where dev speed is CRITICAL, so I attempt a lot of
+experimental solutions:
+
+- Solely using sucrase.
+- Converting imports into cloud imports.
 
 ## TOC
 

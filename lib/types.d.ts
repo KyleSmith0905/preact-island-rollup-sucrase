@@ -1,4 +1,3 @@
-import type { TransformOptions } from 'esbuild'
 import type { CompilerOptions, TypeAcquisition } from 'typescript'
 
 export interface TSConfig {
@@ -22,8 +21,4 @@ export interface Options {
     tsconfig?: string | TSConfig
     output: string
   }
-}
-
-export type ESbuildOptions = Options & {
-  esbuild?: TransformOptions
 }
