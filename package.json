@@ -1,13 +1,12 @@
 {
   "name": "@kylesmith0905/preact-island-rollup-sucrase",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": "barelyhuman/preact-island-plugins",
   "license": "MIT",
   "author": "reaper <ahoy@barelyhuman.dev>",
   "exports": {
     ".": "./index.js",
-    "./internals": "./internals.js",
-    "./rollup": "./rollup.js"
+    "./internals": "./internals.js"
   },
   "main": "index.js",
   "scripts": {
@@ -19,6 +18,7 @@
     "test:ci": "c8 uvu"
   },
   "files": [
+    "index.d.ts",
     "index.js",
     "internals.js",
     "rollup.js",
